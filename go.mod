@@ -1,4 +1,4 @@
-module github.com/nicksnyder/go-i18n
+module github.com/roylee0704/go-i18n
 
 require (
 	github.com/BurntSushi/toml v0.3.0 // indirect
