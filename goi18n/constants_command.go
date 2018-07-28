@@ -13,9 +13,9 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/nicksnyder/go-i18n/i18n/bundle"
-	"github.com/nicksnyder/go-i18n/i18n/language"
-	"github.com/nicksnyder/go-i18n/i18n/translation"
+	"github.com/roylee0704/go-i18n/i18n/bundle"
+	"github.com/roylee0704/go-i18n/i18n/language"
+	"github.com/roylee0704/go-i18n/i18n/translation"
 )
 
 type constantsCommand struct {

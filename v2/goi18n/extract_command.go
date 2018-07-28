@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nicksnyder/go-i18n/v2/i18n"
-	"github.com/nicksnyder/go-i18n/v2/internal"
+	"github.com/roylee0704/go-i18n/v2/i18n"
+	"github.com/roylee0704/go-i18n/v2/internal"
 )
 
 func usageExtract() {
@@ -189,7 +189,7 @@ func (e *extractor) extractMessage(node ast.Node) {
 
 func i18nPackageName(file *ast.File) string {
 	for _, i := range file.Imports {
-		if i.Path.Kind == token.STRING && i.Path.Value == `"github.com/nicksnyder/go-i18n/v2/i18n"` {
+		if i.Path.Kind == token.STRING && i.Path.Value == `"github.com/roylee0704/go-i18n/v2/i18n"` {
 			if i.Name == nil {
 				return "i18n"
 			}

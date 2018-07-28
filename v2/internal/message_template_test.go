@@ -3,7 +3,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/nicksnyder/go-i18n/v2/internal/plural"
+	"github.com/roylee0704/go-i18n/v2/internal/plural"
 )
 
 func TestMessageTemplate(t *testing.T) {

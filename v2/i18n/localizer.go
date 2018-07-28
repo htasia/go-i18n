@@ -5,8 +5,8 @@ import (
 
 	"text/template"
 
-	"github.com/nicksnyder/go-i18n/v2/internal"
-	"github.com/nicksnyder/go-i18n/v2/internal/plural"
+	"github.com/roylee0704/go-i18n/v2/internal"
+	"github.com/roylee0704/go-i18n/v2/internal/plural"
 	"golang.org/x/text/language"
 )
 
